@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to BarAlem</h1>
+    <p>BarAlem – это сайт с интересными фактами обо всем на свете, познавательными подборками, топами и рейтингами на любую тематику. Мы отбираем все самое захватывающее из мира науки, it, спорта, архитектуры, стран и городов, космоса, природы и других областей, охватывающих наш мир и окружение.</p>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@{
+    @using (Html.BeginForm("Create", "Home", FormMethod.Post))
+    {
+        <p>
+            <label>Name</label>
+            @Html.TextBox("Name")
+        </p>
+
+        <label>Lastname</label>
+
+        @Html.TextBox("Lastname", "", new { type = "number" })
+
+
+        <p>
+            <label>Email</label>
+
+            @Html.TextBox("Email", "", new { type = "string" })
+        </p>
+        <p>
+            <label>Birhday</label>
+
+            @Html.TextBox("Birthday", "", new { type = "number" })
+        </p>
+        <p>
+            <label>Your story</label>
+
+            @Html.TextArea("Lastname", "", new { type = "number" })
+        </p>
+        <p>
+        </p>
+
+        <p>
+            <label>Country</label>
+            @Html.DropDownList("country", new SelectList(new string[] { "Kazakhstan", "USA", "Canada", "France" }))
+        </p>
+        <p>
+
+            <input type="submit" value="Отправить" />
+
+        </p>
+    }
+}
+
