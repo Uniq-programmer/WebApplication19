@@ -76,7 +76,7 @@ using WebApplication19;
 </div>
 <a href=""https://tengrinews.kz/tag/%D0%9A%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D0%B8%D1%80%D1%83%D1%81-%D0%B2-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5/"" class=""tn-urgent-news"">
     <div>Коронавирус в Казахстане: 130 039 случаев, 116 044 излечились, 2 020 умерли. Пневмония с 1 августа: 41 940 случаев, 440 умерли</div>
-
+//tt
 </a>
 <div class=""blocknews "">
 //srs
