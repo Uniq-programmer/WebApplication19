@@ -89,7 +89,8 @@ using WebApplication19;
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f350df4a95b3033b61cd0c5077635f5b1524bac6893", async() => {
                 WriteLiteral("Подробнее");
             }
-            );//opop
+            );//3434
+
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
             __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
