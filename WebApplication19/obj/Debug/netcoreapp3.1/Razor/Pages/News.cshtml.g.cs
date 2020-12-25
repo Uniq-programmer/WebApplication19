@@ -90,6 +90,7 @@ using WebApplication19;
                 WriteLiteral("Подробнее");
             }
             );//srs3
+            //srsssss
 
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
