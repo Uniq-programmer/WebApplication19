@@ -81,6 +81,7 @@ using WebApplication19;
 </a>
 <div class=""blocknews "">
 //srs
+//nazzzzz
 
     Рой Джонс захотел реванша с Майком Тайсоном
     <br><img src=""images/n1.jpeg"" class=""blockimages"">
